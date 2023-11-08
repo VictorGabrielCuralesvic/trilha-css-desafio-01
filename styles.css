@@ -1,0 +1,177 @@
+/* Estilos gerais para a página */
+body {
+    background: linear-gradient(to bottom, #2e1a31, #1a0925);
+    font-family: Courier, monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .banner {
+    background: linear-gradient(to bottom, #2e1a31, #1a0925);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #9f39b2;
+  }
+  
+  .banner-content {
+    border: 2px solid #9f39b2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  button {
+    background: #9f39b2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o ícone da caneta */
+  button::before {
+    content: "\270E";
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Estilos para os módulos */
+  #course-content {
+    border-top: 5px solid #9f39b2;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .module {
+    font-size: 1em;
+    margin: 10px 0;
+    border: 2px solid #9f39b2;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to bottom, #9f39b2, #2e1a31);
+    color: white;
+}
+
+  
+  .module:nth-child(2) {
+    background: linear-gradient(to bottom, #9f39b2, #2e1a31);
+  }
+  
+  .module:nth-child(3) {
+    background: linear-gradient(to bottom, #9f39b2, #2e1a31);
+  }
+  
+  /* Estilos para "O que vou aprender" e "temos 3 módulos..." */
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  #course-content h2 {
+    text-align: right;
+  }
+  
+  /* Estilos para "Evolua e encare novos desafios profissionais" */
+  #professional-challenges {
+    padding: 20px;
+    border-top: 5px solid #9f39b2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #banner-text-content p {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para o texto "Transforme o mundo com a gente" */
+  #transform-world {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #9f39b2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+  /* Estilos para o texto "temos 3 módulos..." */
+  #course-content .modules-list {
+    text-align: right;
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background: linear-gradient(to bottom, #2e1a31, #1a0925);
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #9f39b2;
+  }
+  
+  .dio-logo {
+    max-width: 200px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #9f39b2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #course-content p {
+    text-align: center;
+}
+  
